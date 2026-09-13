@@ -874,7 +874,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/fairlady/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/fairlady/proprietary/odm/etc/resourcemanager.xml:$(TARGET_COPY_OUT_ODM)/etc/resourcemanager.xml \
-    vendor/oneplus/fairlady/proprietary/odm/etc/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_ODM)/etc/sdm_display_resolution_extn.xml \
     vendor/oneplus/fairlady/proprietary/odm/etc/sensor/config/fairlady_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/fairlady_qrd_ois_system.json \
     vendor/oneplus/fairlady/proprietary/odm/etc/sensor/config/json_list:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/json_list \
     vendor/oneplus/fairlady/proprietary/odm/etc/sensor/config/kaanapali_mtp_ak09919.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kaanapali_mtp_ak09919.json \
@@ -1065,6 +1064,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/fairlady/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/fairlady/proprietary/vendor/etc/acdbdata/canoe_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/canoe_mtp/acdb_cal.acdb \
+    vendor/oneplus/fairlady/proprietary/vendor/etc/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_apollo_list_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_deburnIn_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_deburnIn_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
