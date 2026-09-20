@@ -6,10 +6,10 @@
   "lux_aod": {
     "owner": "lux_aod",
     "thrd-low": {"type": "int","ver": "0",
-      "data": "12"
+      "data": "300"
     },
     "thrd-high": {"type": "int","ver": "0",
-      "data": "50"
+      "data": "300"
     },
     "deploy-multi-aod": {"type": "int","ver": "0",
       "data": "1"
