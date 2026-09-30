@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/MOS/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MOS/acdb_cal.acdb \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/acdb_cal.acdb \
+    vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/canoe_mtp/acdb_cal.acdb \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/dw_ve_enpuv6.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/dw_ve_enpuv6.eai \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/up_ve_enpuv6_ha.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv6_ha.eai \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/up_ve_enpuv6_hh.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv6_hh.eai \
