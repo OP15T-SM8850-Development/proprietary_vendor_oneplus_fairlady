@@ -1780,6 +1780,3 @@ PRODUCT_PACKAGES += \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
     vendor.oplus.hardware.cammidasservice-V1-service
-
-PRODUCT_PACKAGES += \
-    libsensorbridge
