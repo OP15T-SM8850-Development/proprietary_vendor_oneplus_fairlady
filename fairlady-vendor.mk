@@ -1782,3 +1782,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider-service_64 \
     vendor.oplus.hardware.cammidasservice-V1-service
 
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/fairlady/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_2_4.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_2_4.json
