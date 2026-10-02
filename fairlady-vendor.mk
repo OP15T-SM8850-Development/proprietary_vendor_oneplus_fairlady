@@ -700,6 +700,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/main_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_inv_mapxy_33x25.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/main_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_mapxy_33x25.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
+    vendor/oneplus/fairlady/proprietary/odm/etc/media_profiles_fairlady.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_fairlady.xml \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/800t_blues.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_blues.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/800t_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_hdr.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/800t_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_sdr.bin \
@@ -1781,3 +1782,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
     vendor.oplus.hardware.cammidasservice-V1-service
+
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/fairlady/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_2_4.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_2_4.json
