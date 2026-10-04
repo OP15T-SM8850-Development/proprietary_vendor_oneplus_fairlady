@@ -877,7 +877,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/fairlady/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/fairlady/proprietary/odm/etc/resourcemanager.xml:$(TARGET_COPY_OUT_ODM)/etc/resourcemanager.xml \
-    vendor/oneplus/fairlady/proprietary/odm/etc/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_ODM)/etc/sdm_display_resolution_extn.xml \
+    vendor/oneplus/fairlady/proprietary/vendor/etc/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
     vendor/oneplus/fairlady/proprietary/odm/etc/sensor/config/fairlady_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/fairlady_qrd_ois_system.json \
     vendor/oneplus/fairlady/proprietary/odm/etc/sensor/config/json_list:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/json_list \
     vendor/oneplus/fairlady/proprietary/odm/etc/sensor/config/kaanapali_mtp_ak09919.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kaanapali_mtp_ak09919.json \
