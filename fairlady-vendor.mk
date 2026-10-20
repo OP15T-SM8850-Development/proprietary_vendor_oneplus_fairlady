@@ -849,6 +849,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
@@ -1072,6 +1073,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_deburnIn_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_deburnIn_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_demura_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_demura_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/fairlady/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
+    vendor/oneplus/fairlady/proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator-service-stock.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.allocator-service-stock.rc \
     vendor/oneplus/fairlady/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/fairlady/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/fairlady/proprietary/vendor/etc/ltm_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
@@ -1569,6 +1571,7 @@ PRODUCT_PACKAGES += \
     libaiboost_qnn_external_delegate.aiframe \
     libqcom_llm \
     libtransformer_lite \
+    camera.oemlayer.v2 \
     camera.oemlayer.adapter \
     camera.oemlayer.healthmonitor \
     camera.oemlayer.logger \
@@ -1773,14 +1776,28 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libtfadsp_sb7_0_rx_so \
     odm_lib_rfsa_adsp_libtfadsp_sb7_0_tx_so \
     odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
+    mapper.qti-stock.xml \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
+    vendor.qti.hardware.display.allocator-service-stock.xml \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    libgralloc.qti \
+    libgralloccore \
+    libgrallocutils \
+    libmapperutils \
+    mapper.qti \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.snapalloc-impl \
+    libdscaalgo \
+    libiccprofile \
+    libmlremosaicengine \
+    libmmfp \
     vendor.oplus.hardware.cammidasservice-V1-service
 
 PRODUCT_COPY_FILES += \

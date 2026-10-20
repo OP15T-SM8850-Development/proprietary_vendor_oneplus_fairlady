@@ -12170,6 +12170,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "camera.oemlayer.v2",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "hw",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "camera.oemlayer.adapter",
     owner: "oneplus",
     strip: {
@@ -17700,6 +17720,15 @@ prebuilt_rfsa {
 }
 
 prebuilt_etc_xml {
+    name: "mapper.qti-stock.xml",
+    owner: "oneplus",
+    src: "proprietary/vendor/etc/vintf/manifest/mapper.qti-stock.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "vendor.qti.camera.aon-impl.xml",
     owner: "oneplus",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.aon-impl.xml",
@@ -17721,6 +17750,15 @@ prebuilt_etc_xml {
     name: "vendor.qti.camera.provider.xml",
     owner: "oneplus",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.provider.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "vendor.qti.hardware.display.allocator-service-stock.xml",
+    owner: "oneplus",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service-stock.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -17814,4 +17852,232 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.mapper@4.0-impl-qti-display",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "mapper.qti",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/mapper.qti.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgralloc.qti",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgralloc.qti.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgralloccore",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgralloccore.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgrallocutils",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgrallocutils.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.display.snapalloc-impl",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.hardware.display.snapalloc-impl.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmapperutils",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmapperutils.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "vendor.qti.hardware.display.allocator-service",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/vendor.qti.hardware.display.allocator-service",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdscaalgo",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libdscaalgo.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libiccprofile",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libiccprofile.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmlremosaicengine",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmlremosaicengine.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmfp",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmmfp.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    soc_specific: true,
 }
